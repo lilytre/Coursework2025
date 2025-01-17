@@ -15,7 +15,7 @@
         @include easeOut;
     }
 
-    // Rotation
+    // Rotate into X with menu lines
     &.close {
         transform: rotate(180deg);
 
@@ -93,7 +93,7 @@
         .portrait {
             width: 250px;
             height: 250px;
-            background: url(../images.Lily (1)_.jpg);
+            background: url('../dist/images/Lily (1)_.jpg');
             border-radius: 50%;
             border: solid 10px $secondary-color;
         }
@@ -117,7 +117,7 @@
           color: $secondary-color;
         }
       }
-    }
+    
     
     // Delay each nav item slide by 0.1s
     @for $x from 1 through 4 {
