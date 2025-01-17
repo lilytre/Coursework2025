@@ -154,9 +154,10 @@
       grid-area: bioimage;
       margin: auto;
       border-radius: 50%;
-      border: #aaa0a8 10px solid; }
+      border: #aaa0a8 10px solid;
       max-width: 300px;
-      height: auto;
+      height: auto; }
+
     .about-info .bio {
       grid-area: bio;
       font-size: 1.5rem; }
