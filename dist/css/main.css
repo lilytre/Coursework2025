@@ -91,9 +91,9 @@
     line-height: 1.5;
     letter-spacing: none; }
 
-    /*selle voib ära kustutadakui me taustapilti ei pane*/
+
     body#bg-img {
-      background: url(../img/background.jpg);
+      background: url(../images/Backround.jpg);
       background-attachment: fixed;
       background-size: cover; }
       body#bg-img:after {
