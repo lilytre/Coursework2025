@@ -91,9 +91,9 @@
     line-height: 1.5;
     letter-spacing: none; }
 
-    /*selle voib ära kustutadakui me taustapilti ei pane*/
+    
     body#bg-img {
-      background: url(../img/background.jpg);
+      background: url(../images/Backround.jpg);
       background-attachment: fixed;
       background-size: cover; }
       body#bg-img:after {
@@ -154,9 +154,9 @@
       grid-area: bioimage;
       margin: auto;
       border-radius: 50%;
-      border: #aaa0a8 10px solid; }
+      border: #aaa0a8 10px solid;
       max-width: 300px;
-      height: auto;
+      height: auto; }
     .about-info .bio {
       grid-area: bio;
       font-size: 1.5rem; }
@@ -222,7 +222,7 @@
   #main-footer {
     text-align: center;
     padding: 1rem;
-    background: #eac0ff;
+    background: #eeedee;
     color: #202020;
     height: 60px; }
   
