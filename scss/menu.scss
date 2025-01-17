@@ -15,7 +15,7 @@
         @include easeOut;
     }
 
-    // Rotate into X with menu lines
+    // Rotation
     &.close {
         transform: rotate(180deg);
 

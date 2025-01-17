@@ -28,7 +28,7 @@ $background-opacity: 0.1;
 }
 }
 
-//set text color
+//text color
 @function set-text-color($color) {
     @if (lightness($color) > 40) {
         @return #202020;
